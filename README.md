@@ -1,36 +1,27 @@
 # Blender Portfolio — Alex Smith
 
-Hard-surface props, organic characters, rigging, and animation. All rendered in Cycles or EEVEE.
+Low-poly character work targeting Roblox / Adopt Me proportions. Built in Blender 4.4.
 
 ---
 
-## Characters & Creatures
+## Adopt Me-Style Pet — Chibi Cat
 
-<!-- Drop your character/creature renders here. Format:
-![Description](images/filename.jpg)
-Tip: aim for 1200–1600px wide renders, saved as JPG ~80% quality -->
+Orange tabby built to Adopt Me design specs: HEAD > BODY ratio, no neck (head clips into body), big round eyes for species identity, tiny feet, shade smooth throughout. Part of a procedural pet generation pipeline ([bits-and-baubles-blender-kit](https://github.com/GrandMastaShake/bits-and-baubles-blender-kit)).
 
----
+![Adopt Me cat — front view](images/adopt-me-cat-blender-01.png)
 
-## Animation
-
-<!-- If you have a short animation (walk cycle, expression, anything that moves),
-upload it as a GIF or MP4. GitHub renders both inline.
-![Walk cycle](images/walk_cycle.gif) -->
+![Adopt Me cat — three-quarter view](images/adopt-me-cat-blender-02.png)
 
 ---
 
-## Hard Surface / Props
+## Roblox Studio — Live Sync Demo
 
-<!-- Props, objects, environment pieces. -->
+Rojo-synced Roblox Studio session running the modular pet game library. 49-module strict Luau codebase wired via DI + EventBus.
 
----
-
-## The Donut
-
-<!-- Yes, the donut. Everyone knows what it means. -->
+![Roblox Studio demo](images/roblox-studio-demo.png)
 
 ---
 
-*Tools: Blender · Cycles / EEVEE · CG Cookie training · Pierre Pecaut animation course*  
-*More work: [github.com/GrandMastaShake/bits-and-baubles-blender-kit](https://github.com/GrandMastaShake/bits-and-baubles-blender-kit)*
+*Tools: Blender 4.4 · Roblox Studio · Rojo · Luau --!strict*  
+*Game systems: [github.com/GrandMastaShake/roblox-modular-lib](https://github.com/GrandMastaShake/roblox-modular-lib)*  
+*Asset pipeline: [github.com/GrandMastaShake/bits-and-baubles-blender-kit](https://github.com/GrandMastaShake/bits-and-baubles-blender-kit)*
