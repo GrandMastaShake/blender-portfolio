@@ -1,27 +1,70 @@
-# Blender Portfolio — Alex Smith
+# Blender & Roblox Portfolio — Alex Smith
 
-Low-poly character work targeting Roblox / Adopt Me proportions. Built in Blender 4.4.
-
----
-
-## Adopt Me-Style Pet — Chibi Cat
-
-Orange tabby built to Adopt Me design specs: HEAD > BODY ratio, no neck (head clips into body), big round eyes for species identity, tiny feet, shade smooth throughout. Part of a procedural pet generation pipeline ([bits-and-baubles-blender-kit](https://github.com/GrandMastaShake/bits-and-baubles-blender-kit)).
-
-![Adopt Me cat — front view](images/adopt-me-cat-blender-01.png)
-
-![Adopt Me cat — three-quarter view](images/adopt-me-cat-blender-02.png)
+Low-poly characters, environments, and Roblox game systems.  
+Contact: grandmasta1024@gmail.com · Roblox: GrandMastaShake
 
 ---
 
-## Roblox Studio — Live Sync Demo
+## Adopt Me-Style Creatures — `creatures.blend`
 
-Rojo-synced Roblox Studio session running the modular pet game library. 49-module strict Luau codebase wired via DI + EventBus.
+Eight chibi characters built to Adopt Me proportions: HEAD > BODY ratio, no neck, big expressive eyes, tiny feet. Dragon, cat, fox, raccoon, deer, and friends.
 
-![Roblox Studio demo](images/roblox-studio-demo.png)
+![Adopt Me creature lineup](images/creatures-adopt-me-lineup.png)
 
 ---
 
-*Tools: Blender 4.4 · Roblox Studio · Rojo · Luau --!strict*  
-*Game systems: [github.com/GrandMastaShake/roblox-modular-lib](https://github.com/GrandMastaShake/roblox-modular-lib)*  
-*Asset pipeline: [github.com/GrandMastaShake/bits-and-baubles-blender-kit](https://github.com/GrandMastaShake/bits-and-baubles-blender-kit)*
+## Chibi Cat Build — `petproto.blend`
+
+Orange tabby modeled to spec: head r=1.0 / body r=0.62, pointy ears with pink inners, large sclera eyes with shine dot, cheek puffs, shade smooth throughout. Built in Blender 4.4.
+
+![Cat — front](images/adopt-me-cat-blender-01.png)
+
+![Cat — three-quarter](images/adopt-me-cat-blender-02.png)
+
+---
+
+## Low-Poly Environment
+
+Trees, shrubs, and rocks. 55 objects, 1,389 vertices, 2,592 faces — kept light for real-time use.
+
+![Low-poly environment](images/low-poly-environment.png)
+
+---
+
+## The Donut
+
+Blender fundamentals: subdivision surface, procedural materials, Cycles lighting. The rite of passage.
+
+![Donut WIP](images/blender-donut-wip.png)
+
+![Donut render](images/blender-donut-render.png)
+
+---
+
+## Roblox Studio — Game Systems
+
+49-module strict Luau library synced live via Rojo. DI + EventBus architecture. Scenes below show the map builder plugin output and the AnalyticsManager wired up in the editor.
+
+![Roblox Studio — fashion map](images/roblox-studio-fashion-map.png)
+
+![Roblox Studio — island map](images/roblox-studio-island-map.png)
+
+![Roblox Studio — level hallway](images/roblox-studio-demo.png)
+
+![Roblox Studio — AnalyticsManager Lua](images/roblox-studio-analytics-lua.png)
+
+---
+
+## Adopt Me — In Game
+
+Actual gameplay. The sushi penguin hatch is what started all of this.
+
+![In-game character with pets](images/adopt-me-ingame-character.png)
+
+![Pet backpack](images/adopt-me-ingame-pet-backpack.png)
+
+---
+
+*Tools: Blender 4.4 · Roblox Studio · Rojo · Luau `--!strict`*  
+*Game systems: [roblox-modular-lib](https://github.com/GrandMastaShake/roblox-modular-lib)*  
+*Asset pipeline: [bits-and-baubles-blender-kit](https://github.com/GrandMastaShake/bits-and-baubles-blender-kit)*
